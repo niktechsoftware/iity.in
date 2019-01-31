@@ -22,7 +22,8 @@
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/iity.com/';
+$config['base_url'] = 'http://iity.com/';
+//$config['base_url'] = 'http://localhost/iity.com/';
 
 /*
 |--------------------------------------------------------------------------

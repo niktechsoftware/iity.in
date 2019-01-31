@@ -16,7 +16,7 @@
 | environments.
 |
 */
-$config['base_url'] = 'http://localhost/nyseps.com/AdminPanel/';
+$config['base_url'] = 'http://iity.in/AdminPanel/';
 
 /*
 |--------------------------------------------------------------------------

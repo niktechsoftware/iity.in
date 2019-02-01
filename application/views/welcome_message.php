@@ -466,23 +466,12 @@ a:focus, a:active, #node-title a:focus, #node-title a:active {}
   <marquee behavior="scroll" loop="infinite" direction="up" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="3" scrolldelay=".0001" height="250">
     <ul style="list-style: none; list-style-type: none;">
       
-                <?php 
-                
-                 $r=$this->db->get('notice');
-                
-                 foreach ($r->result() as $row ):
-                
-                ?>
-            
-              <li style="list-style-image: url('/wp-content/plugins/scrolling-notice-board/icons/new.gif');"><a href="http://www.mgpysb.com/aims-of-yoga/"><?PHP echo $row->subject;?></a> <span class="time"><small><font color="green"><em>(<?PHP echo $row->date;?>)</em></font></small></span></li>
-
-        
-              <li><?PHP echo $row->message;?></li>
-          
-               <?php
-
-                endforeach;
-               ?>
+         
+               
+               	<li>hello this is notice board</li>
+               	<li>Important notice</li>
+               	<li>This is very important</li>
+               
           </ul></marquee>
 </div>
       
@@ -922,12 +911,12 @@ Spirit Yoga Tutorial<span class="thumbnail-content">Yoga is a physical, mental, 
                             </div>  
 
 
-  <div style="margin:auto; width: 10%;">
+  <!--<div style="margin:auto; width: 10%;">
      <h1>
      	<?php echo $this->count_visitor;?>
      </h1>
 
-  </div>
+  </div>  -->
         </div>  
     </div>
     

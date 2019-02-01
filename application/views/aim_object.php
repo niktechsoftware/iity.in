@@ -10,7 +10,7 @@
 <body>
     <?php $this->load->view('header'); ?>   
 	 <?php $this->load->view('menu'); ?> 
-	 <div class="row container-fluid jumbotron" style="margin-top:-12px"> 
+	 <div class="row container-fluid jumbotron" style="margin-top:-40px"> 
 	 <div class="col-md-1"> </div>
     <div class="col-md-10">
 	 	<center><h3>Aim & Objective </h3></center>

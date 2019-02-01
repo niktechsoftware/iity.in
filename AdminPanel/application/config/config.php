@@ -16,8 +16,8 @@
 | environments.
 |
 */
+//$config['base_url'] = 'http://localhost/iity.in/AdminPanel/';
 $config['base_url'] = 'http://iity.in/AdminPanel/';
-
 /*
 |--------------------------------------------------------------------------
 | Index File

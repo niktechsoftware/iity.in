@@ -10,7 +10,7 @@
 <body>
     <?php $this->load->view('header'); ?>   
 	 <?php $this->load->view('menu'); ?> 
- <div class="container-fluid jumbotron col-md-12" style="margin-top:-12px">
+ <div class="container-fluid jumbotron col-md-12" style="margin-top:-40px">
 	 	<center><h3>Mission</h3></center>
 	 <center><h2>Institute of Information Technology & Yoga</h2><center>
 	 <center><p>A training organization that will empower young to acquire best opportunities to join modern work force. <br/> Contribute in the development of the nation through quality education technology.Services and Courses Offered.

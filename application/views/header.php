@@ -304,7 +304,7 @@ a:focus, a:active, #node-title a:focus, #node-title a:active {}
                             <i class="fa fa-bars"></i>
                         </a>
                         <a href="#" class="navbar-brand">
-                            <img class="noo-logo-img noo-logo-normal"  src="<?php echo base_url();?>assets/sites/default/files/logo1.png" alt="Yogi">
+                            <img class="noo-logo-img noo-logo-normal"  src="<?php echo base_url();?>assets/sites/default/files/logo.jpg" style="width:120px;" alt="Yogi">
                         </a>
                     </div>
                    
@@ -353,16 +353,15 @@ a:focus, a:active, #node-title a:focus, #node-title a:active {}
 <li><a href="<?php echo base_url()?>index.php/welcome/enroll" title="">Enrollment Varification</a></li>
 <li><a href="<?php echo base_url()?>index.php/welcome/diplomaPG" title="">Certificate Verification</a></li>
 </ul></li>
-<li  class="expanded"><a href="#">Login</a><ul class="sub-menu">
+<li  class="expanded"><a href="#">Enrollment</a><ul class="sub-menu">
 	<li><a href="<?php echo base_url()?>index.php/welcome/onlineFeePay" title="">Enroll New Student</a></li>
-<li><a href="<?php echo base_url()?>index.php/welcome/enroll" title="">Certification Creation</a></li>
 </ul></li>
 	<li  class="expanded"><a href="#">Papers Name</a><ul class="sub-menu">
-	<li><a href="<?php echo base_url()?>index.php/welcome/enroll" title="">Yoga Philosophy & Physiology</a></li>
-<li><a href="<?php echo base_url()?>index.php/welcome/diplomaPG" title="">Human Body,Diet & Body Purification</a></li>
-<li><a href="<?php echo base_url()?>index.php/welcome/enroll" title="">Practicing Yoga Science</a></li>
-<li><a href="<?php echo base_url()?>index.php/welcome/diplomaPG" title="">Practical</a></li>
-<li><a href="<?php echo base_url()?>index.php/welcome/diplomaPG" title="">Viva</a></li>
+	<li><a href="#" title="">Yoga Philosophy & Physiology</a></li>
+<li><a href="#" title="">Human Body,Diet & Body Purification</a></li>
+<li><a href="#" title="">Practicing Yoga Science</a></li>
+<li><a href="#" title="">Practical</a></li>
+<li><a href="#" title="">Viva</a></li>
 </ul></li>
 	<li><a href="<?php echo base_url()?>index.php/welcome/contact" title="">Contact</a></li>
 </ul></nav>

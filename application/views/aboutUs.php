@@ -14,10 +14,10 @@
 	 <div class="container-fluid jumbotron col-md-12" style="margin-top:-40px">
 	 	<center><h3>About </h3></center>
 	 <center><h2>Institute of Information Technology & Yoga</h2><center>
-	 <center><p>We are one of the premier Training Institutes which has grown immensely <br/> from a humble beginning to an established brand in providing quality education. <br/>
-	 	We had been engaged in imparting technical,Vocational & Yoga education <br/> including computer and other allied activities in the field  since 2006.<br/> 
-	 	 We provide a wide spectrum of unique Information Technology solutions and services  <br/>to a clientele of premier organizations in the government.<br/> 
-	 	  Institute of Information Technology & Yoga has been <br/> conceived with the ambitious objectives of developing professional expertise and skilled manpower
+	 <center><p style="text-align: justify;">We are one of the premier Training Institutes which has grown immensely  from a humble beginning to an established brand in providing quality education.
+	 	We had been engaged in imparting technical,Vocational & Yoga education  including computer and other allied activities in the field  since 2006. 
+	 	 We provide a wide spectrum of unique Information Technology solutions and services to a clientele of premier organizations in the government.
+	 	  Institute of Information Technology & Yoga has been conceived with the ambitious objectives of developing professional expertise and skilled manpower
 	 	</p>
 
 	 </center>

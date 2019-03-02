@@ -1,12 +1,13 @@
 <!DOCTYPE HTML>
  <html class="no-js"> <!--<![endif]-->
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="shortcut icon" href="<?php echo base_url();?>assets/sites/all/themes/yogi/favicon.ico" type="image/vnd.microsoft.icon" />
 <meta name="Generator" content="Drupal 7 (http://drupal.org)" />
     <title>Institute of Information Technology & Yoga</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
     <style type="text/css" media="all">
 @import url("<?php echo base_url();?>assets/modules/system/system.baseb502.css?num8cd");
 @import url("<?php echo base_url();?>assets/modules/system/system.messagesb502.css?num8cd");
@@ -301,8 +302,8 @@ a:focus, a:active, #node-title a:focus, #node-title a:active {}
                             <i class="fa fa-bars"></i>
                         </a>
                         <a href="#" class="navbar-brand">
-                            <img class="noo-logo-img noo-logo-normal" src="<?php echo base_url();?>assets/sites/default/files/logo1.png" 
-                            alt="Yogi">
+                           <img class="noo-logo-img noo-logo-normal" src="<?php echo base_url();?>assets/sites/default/files/logo.jpg" 
+                            style="width:130px;"alt="Yogi">
                         </a>
                     </div>
                                               <div class="region region-menu">
@@ -350,16 +351,15 @@ a:focus, a:active, #node-title a:focus, #node-title a:active {}
 <li><a href="<?php echo base_url()?>index.php/welcome/enroll" title="">Enrollment Varification</a></li>
 <li><a href="<?php echo base_url()?>index.php/welcome/diplomaPG" title="">Certificate Verification</a></li>
 </ul></li>
-<li  class="expanded"><a href="#">Login</a><ul class="sub-menu">
+<li  class="expanded"><a href="#">Enrollment</a><ul class="sub-menu">
 	<li><a href="<?php echo base_url()?>index.php/welcome/onlineFeePay" title="">Enroll New Student</a></li>
-<li><a href="<?php echo base_url()?>index.php/welcome/enroll" title="">Certification Creation</a></li>
 </ul></li>
 	<li  class="expanded"><a href="#">Papers Name</a><ul class="sub-menu">
-	<li><a href="<?php echo base_url()?>index.php/welcome/enroll" title="">Yoga Philosophy & Physiology</a></li>
-<li><a href="<?php echo base_url()?>index.php/welcome/diplomaPG" title="">Human Body,Diet & Body Purification</a></li>
-<li><a href="<?php echo base_url()?>index.php/welcome/enroll" title="">Practicing Yoga Science</a></li>
-<li><a href="<?php echo base_url()?>index.php/welcome/diplomaPG" title="">Practical</a></li>
-<li><a href="<?php echo base_url()?>index.php/welcome/diplomaPG" title="">Viva</a></li>
+	<li><a href="#" title="">Yoga Philosophy & Physiology</a></li>
+<li><a href="#" title="">Human Body,Diet & Body Purification</a></li>
+<li><a href="#" title="">Practicing Yoga Science</a></li>
+<li><a href="#" title="">Practical</a></li>
+<li><a href="#" title="">Viva</a></li>
 </ul></li>
 	<li><a href="<?php echo base_url()?>index.php/welcome/contact" title="">Contact</a></li>
 </ul></nav>
@@ -379,18 +379,18 @@ a:focus, a:active, #node-title a:focus, #node-title a:active {}
 <li  data-transition="random-premium" data-randomtransition="0" data-slotamount="7" data-masterspeed="300">
 <img  src="<?php echo base_url();?>assets/sites/default/files/transparent.png" data-lazyload="http://tk-themes.net/yogi/sites/default/files/background-color.jpg" data-kenburns="off" data-bgrepeat="repeat" data-bgfit="cover" data-bgposition="center center" />
 <div style="z-index:6;;" class="tp-caption skewfromleft skewtoleft"  data-end="8859" data-x="left" data-hoffset="10" data-y="center" data-voffset="0" data-speed="300" data-start="979" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endspeed="300" data-endelementdelay="0.1"><div style=";" class="tp-layer-inner-rotation "  data-speed="2.5" data-easing="Linear.easeNone" data-startdeg="-20" data-enddeg="20" data-ys="-4" data-ye="3" data-zoomstart="1" data-zoomend="1" data-origin-x="50" data-origin-y="50" data-angle="0" data-radius="10"><img style=";" src="<?php echo base_url();?>assets/sites/default/files/slideshow1_img.png" /></div></div>
-<div style="z-index:7;;" class="tp-caption lft ltt"  data-end="8085" data-x="758" data-y="center" data-voffset="-260" data-speed="300" data-start="1597" data-easing="Power1.easeInOut" data-elementdelay="0.1" data-endspeed="300" data-endelementdelay="0.1"><div style=";" class="tp-layer-inner-rotation "  data-speed="2.5" data-easing="Linear.easeNone" data-startdeg="-20" data-enddeg="20" data-ys="-4" data-ye="3" data-zoomstart="1" data-zoomend="1" data-origin-x="50" data-origin-y="50" data-angle="0" data-radius="10"><img style=";" src="<?php echo base_url();?>assets/sites/default/files/logo1.png" /></div></div>
+<div style="z-index:7;;" class="tp-caption lft ltt"  data-end="8085" data-x="758" data-y="center" data-voffset="-260" data-speed="300" data-start="1597" data-easing="Power1.easeInOut" data-elementdelay="0.1" data-endspeed="300" data-endelementdelay="0.1"><div style=";" class="tp-layer-inner-rotation "  data-speed="2.5" data-easing="Linear.easeNone" data-startdeg="-20" data-enddeg="20" data-ys="-4" data-ye="3" data-zoomstart="1" data-zoomend="1" data-origin-x="50" data-origin-y="50" data-angle="0" data-radius="10"></div></div>
 <div style="z-index:8;" class="tp-caption lfr ltl"  data-end="7493" value="New layer" data-x="center" data-hoffset="140" data-y="center" data-voffset="90" data-speed="1800" data-start="2150" data-easing="Power1.easeIn" data-splitin="chars" data-elementdelay="0.1" data-endeasing="Power0.easeOut" data-endspeed="1000" data-splitout="chars" data-endelementdelay="0.1" data-captionhidden="on"><div style=" " class="tp-layer-inner-rotation tp-caption largeblackcustom sfr stl tp-resizeme"  data-speed="1.5" data-easing="Linear.easeNone" data-startdeg="-20" data-enddeg="20" data-ys="-4" data-ye="3" data-zoomstart="1" data-zoomend="1" data-origin-x="50" data-origin-y="50" data-angle="0" data-radius="10"><h4><span style="font-style:oblique;color:yellow;"><br>The Body is Your Temple,Keep It Pure<br> and clean for the soul to reside in</span></h4></div>
+
 
 </div>
 <div style="z-index:0;padding-bottom:650px;" class="tp-caption lfr ltl"  data-end="6965" value="New layer" data-x="center" data-hoffset="140" data-y="center" data-voffset="140" data-speed="1000" data-start="3082" data-easing="Power1.easeIn" data-splitin="chars" data-elementdelay="0.1" data-endspeed="1000" data-splitout="chars" data-endelementdelay="0.1" data-captionhidden="on"><div style=" " class="tp-layer-inner-rotation tp-caption largeblackcustom sfr stl tp-resizeme"  data-speed="2.5" data-easing="Linear.easeNone" data-startdeg="-20" data-enddeg="20" data-ys="-4" data-ye="3" data-zoomstart="1" data-zoomend="1" data-origin-x="50" data-origin-y="50" data-angle="0" data-radius="10"></div>
-<h1><span style="font-style:oblique;color: red;margin-right:170px">Institute of Information Technology & Yoga<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Near Mandir,&nbsp;&nbsp;Lodhipur,&nbsp;&nbsp;Shahjapur,&nbsp;&nbsp; U.P</span></h1></div>
+<h1><span style="font-style:oblique;color: red;">Institute of Information Technology & Yoga<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Near Mandir,&nbsp;&nbsp;Lodhipur,&nbsp;&nbsp;Shahjapur,&nbsp;&nbsp; U.P</span></h1></div>
 </li>
 <li  data-transition="random-premium" data-randomtransition="0" data-slotamount="7" data-masterspeed="300">
 <img  src="<?php echo base_url();?>assets/sites/default/files/transparent.png" data-lazyload="http://tk-themes.net/yogi/sites/default/files/background-color.jpg" data-kenburns="off" data-bgrepeat="repeat" data-bgfit="cover" data-bgposition="center center" />
 <div style="z-index:6;;" class="tp-caption skewfromleft skewtoleft"  data-end="8859" data-x="center" data-hoffset="-350" data-y="center" data-voffset="0" data-speed="300" data-start="979" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endspeed="300" data-endelementdelay="0.1"><div style=";" class="tp-layer-inner-rotation "  data-speed="2.5" data-easing="Linear.easeNone" data-startdeg="-20" data-enddeg="20" data-ys="-4" data-ye="3" data-zoomstart="1" data-zoomend="1" data-origin-x="50" data-origin-y="50" data-angle="0" data-radius="10"><img style=";" src="<?php echo base_url();?>assets/sites/default/files/slideshow1_img_2.png" /></div></div>
-<div style="z-index:4;" class="tp-caption lft ltt"  data-end="8085" data-x="758" data-y="center" data-voffset="-260" data-speed="300" data-start="1597" data-easing="Power1.easeInOut" data-elementdelay="0.1" data-endspeed="300" data-endelementdelay="0.1"><div style=";" class="tp-layer-inner-rotation "  data-speed="2.5" data-easing="Linear.easeNone" data-startdeg="-20" data-enddeg="20" data-ys="-4" data-ye="3" data-zoomstart="1" data-zoomend="1" data-origin-x="50" data-origin-y="50" data-angle="0" data-radius="10"><img style=";" src="<?php echo base_url();?>assets/sites/default/files/logo1.png" /></div>
-<h1><span style="font-style:oblique;color:green;font-size:25px;margin-left:-40px;">Institute of Information Technology & Yoga<br>&nbsp;&nbsp;Near Mandir,&nbsp;&nbsp;Lodhipur,&nbsp;&nbsp;Shahjapur,&nbsp;&nbsp; U.P</span></h1>
+<div style="z-index:4;" class="tp-caption lft ltt"  data-end="8085" data-x="758" data-y="center" data-voffset="-260" data-speed="300" data-start="1597" data-easing="Power1.easeInOut" data-elementdelay="0.1" data-endspeed="300" data-endelementdelay="0.1"><div style=";" class="tp-layer-inner-rotation "  data-speed="2.5" data-easing="Linear.easeNone" data-startdeg="-20" data-enddeg="20" data-ys="-4" data-ye="3" data-zoomstart="1" data-zoomend="1" data-origin-x="50" data-origin-y="50" data-angle="0" data-radius="10"></div>
 </div>
 <div style="z-index:8;" class="tp-caption lfr ltt"  data-end="7493" value="New layer" data-x="center" data-hoffset="140" data-y="center" data-voffset="90" data-speed="1800" data-start="2150" data-easing="Power1.easeIn" data-splitin="chars" data-elementdelay="0.1" data-endeasing="Power0.easeOut" data-endspeed="1000" data-splitout="chars" data-endelementdelay="0.1" data-captionhidden="on"><div style=" " class="tp-layer-inner-rotation tp-caption largeblackcustom sfr stl tp-resizeme"  data-speed="2.5" data-easing="Linear.easeNone" data-startdeg="-20" data-enddeg="20" data-ys="-4" data-ye="3" data-zoomstart="1" data-zoomend="1" data-origin-x="50" data-origin-y="50" data-angle="0" data-radius="10">YOGA DOESN'T TAKE TIME</div></div>
 <div style="z-index:9;" class="tp-caption lfr ltb"  data-end="6965" value="New layer" data-x="center" data-hoffset="140" data-y="center" data-voffset="140" data-speed="1000" data-start="3082" data-easing="Power1.easeIn" data-splitin="chars" data-elementdelay="0.1" data-endspeed="1000" data-splitout="chars" data-endelementdelay="0.1" data-captionhidden="on"><div style=" " class="tp-layer-inner-rotation tp-caption largeblackcustom sfr stl tp-resizeme"  data-speed="2.5" data-easing="Linear.easeNone" data-startdeg="-20" data-enddeg="20" data-ys="-4" data-ye="3" data-zoomstart="1" data-zoomend="1" data-origin-x="50" data-origin-y="50" data-angle="0" data-radius="10">IT GIVES TIME</div></div>
@@ -467,11 +467,18 @@ a:focus, a:active, #node-title a:focus, #node-title a:active {}
     <ul style="list-style: none; list-style-type: none;">
       
          
-               
-               	<li>hello this is notice board</li>
-               	<li>Important notice</li>
-               	<li>This is very important</li>
-               
+               <?php $ab=$this->db->get('notice');
+        if($ab->num_rows()>0)
+        {
+            
+         foreach($ab->result() as $ad):?>
+        <li> <p style="color:green;" class="landing_col">.<?php echo $ad->message;?></p></li><br>
+            <?php endforeach;
+        }
+        
+        
+        
+        ?>
           </ul></marquee>
 </div>
       

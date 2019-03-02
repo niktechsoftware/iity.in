@@ -68,41 +68,68 @@ class formController extends CI_Controller{
 	}
 	
 	
-	public function stdregistration(){
-	
-	
-				
-			$data['name'] = $this->input->post("preName").' '.$this->input->post("firstName").' '. $this->input->post('lastName');
-			$data['father_name']  = $this->input->post("father_preName").' '.$this->input->post("father_firstName").' '. $this->input->post('father_lastName');
-			$data['father_mobile_no']  = $this->input->post("father_mobile_no");
-			$data['course']  = $this->input->post("course");
-			$data['mobile_no']  = $this->input->post("mobile_no");
-			$data['otp']  = $this->input->post("otp");
-			
-			$data['date']  =  date("Y-m-d");
-			$data['approve']  = "Pending";
-			
-			$this->form_validation->set_rules('firstName', 'First Name', 'required');
-		    $this->form_validation->set_rules('father_firstName', 'Fathers First Name', 'required');
-		    $this->form_validation->set_rules('mobile_no', 'mobile_no', 'required');
-		    $this->form_validation->set_error_delimiters('<div class="error">', '</div>');
-		    if ($this->form_validation->run()) {
-		    	# code...
-		    	if($this->db->insert("student_registtration",$data)){
-			redirect("welcome/index/");
-		}
-		else{
-			redirect("index.php/login/index/noteFalse");
-		}
-
-	}
-	else
+	public function registration()
 	{
-		redirect("http://welcome/regStudent");
-	}
 	
-	
-		
-	}
+	   $data=array( 
+               'student_course'=>$this->input->post('coursename') ,
+               'student_name'=>$this->input->post('yourname') ,
+               'f_name'=>$this->input->post('fathername') ,
+               'm_name'=>$this->input->post('mothername') ,
+               'student_address'=>$this->input->post('address') ,
+                'student_contact_no'=>$this->input->post('contactno') ,
+                'addmi_date'=>$this->input->post('addmi_date') ,
+                );
+	             
+		    $insert=$this->db->insert("registration_table",$data);
+		       $id=$this->db->insert_id();
+             if($id)
+             {
+           $stu_id="Stud".date("ymd", strtotime($this->input->post("addmi_date"))).$id;
+
+         $update=array(
+             'stud_id' =>$stu_id,
+         );
+          $this->db->where('id',$id);
+         $up=$this->db->update('registration_table',$update);
+         if($up)
+         {
+             echo '<script>alert(" Your Registration Successfully Submitted");</script>';
+          $this->db->where('id',$id);
+        $data['adc']=$this->db->get('registration_table')->result();
+         $this->load->view('insFeePayment',$data);
+        }
+
+       }
+                
+
+  }
+	public function conDetail()
+	{
+
+	    $data= array(
+	    	'name' =>$this->input->post('name') , 
+            'contact_number' =>$this->input->post('contact_number') , 
+            'email' =>$this->input->post('email') , 
+            'message' =>$this->input->post('message') 
+	    );
+		$insert= $this->db->insert("enquiry_contact_detail",$data);
+		 if($insert)
+		 {
+		 	redirect ("welcome/index",'refresh');
+		 }
+		 else
+		 {
+
+           redirect ("welcome/contact",'refresh');
+
+		 }
+
+}
+
+
+
+
+
 	
 }

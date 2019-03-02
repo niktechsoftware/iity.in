@@ -13,13 +13,10 @@
  <div class="container-fluid jumbotron col-md-12" style="margin-top:-40px">
 	 	<center><h3>Vision</h3></center>
 	 <center><h2>Institute of Information Technology & Yoga</h2><center>
-	 <center><p>To work for the common man to avail best quality technical education. <br/>To build a state-of-the art global computer training infrastructure with a <br/>wide range of network spread across the region channel partners.
-
-    <br/></p>
-     <center><p>To promote excellence in education for a vibrant and inclusive society through knowledge creation and dissemination.
-
-
-    <br/></p>
+	 <center><p style="text-align: justify;">To work for the common man to avail best quality technical education To build a state-of-the art global computer training infrastructure with a wide range of network spread across the region channel partners.
+     </p>
+     <center><p style="text-align: justify;">To promote excellence in education for a vibrant and inclusive society through knowledge creation and dissemination.
+     </p>
     
   </div>
        <?php $this->load->view('footer'); ?>

@@ -70,10 +70,6 @@ class Welcome extends CI_Controller {
 	{
 	    $this->load->view('onlineFeePay');
 	}
-	public function insFeePayment()
-	{
-	    $this->load->view('insFeePayment');
-	}
 	public function affFeePayment()
 	{
 	    $this->load->view('affFeePayment');
@@ -84,7 +80,9 @@ class Welcome extends CI_Controller {
 	}
 	public function news()
 	{
-	    $this->load->view('news');
+		   $this->db->where('stud_id',$this->input->post('id'));
+		$data['abc']=$this->db->get('registration_table')->row();
+	    $this->load->view('news',$data);
 	}
 	public function contact()
 	{

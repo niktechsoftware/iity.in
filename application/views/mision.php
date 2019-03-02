@@ -13,11 +13,11 @@
  <div class="container-fluid jumbotron col-md-12" style="margin-top:-40px">
 	 	<center><h3>Mission</h3></center>
 	 <center><h2>Institute of Information Technology & Yoga</h2><center>
-	 <center><p>A training organization that will empower young to acquire best opportunities to join modern work force. <br/> Contribute in the development of the nation through quality education technology.Services and Courses Offered.
-    <br/></p>
+	 <center><p style="text-align:justify;">A training organization that will empower young to acquire best opportunities to join modern work force Contribute in the development of the nation through quality education technology.Services and Courses Offered.
+  </p>
     <div class="row">
-     <div class="col-md-3"> </div>
-     <div class="col-md-6" style="text-align:left;font-size:20px;color:black"> 
+     <div class="col-md-1"> </div>
+     <div class="col-md-10" style="text-align:left;font-size:20px;color:black"> 
      	<ul>
      			<li >To impart quality education to meet national and global challenges</li>
      			<li>To blend theoretical knowledge with practical skills</li>
@@ -29,7 +29,7 @@
      			<li>To hasten the process of creating a knowledge society</li>
         </ul>
            </div>
-  <div class="col-md-3"></div> 
+  <div class="col-md-1"></div> 
  </div>
   </div>
        <?php $this->load->view('footer'); ?>

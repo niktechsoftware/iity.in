@@ -1,4 +1,4 @@
- <div id="main-wrapper" class="container">
+  <div id="main-wrapper" class="container">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="panel panel-white">
@@ -11,10 +11,7 @@
 		                                        {
 		                                        echo "Successfully Uploaded Image";
 		                                        	
-		                                        }?>
-		                                        
-		                                        
-		                                        
+		                                        }?>         
 		                                        <div class="form-group">
 		                                            <label class="col-sm-3 control-label">Campus Image (Max. 1000kb)</label>
 		                                            <div class="col-sm-9">

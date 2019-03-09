@@ -6,14 +6,12 @@
                                    <div class="table-responsive">
                                     <table id="example" class="display table" style="width: 100%; cellspacing: 0;">
                                         <thead>
-                                            <tr>
-                                             
-                                                 <th>sno</th>
-                                                <th>name</th>
-                                                <th>email</th>
-                                                   <th>contact</th>
-                                                      <th>message</th>
-                                               
+                                            <tr> 
+                                                 <th>SNo</th>
+                                                <th>Name</th>
+                                                <th>Email</th>
+                                                   <th>Contact Number</th>
+                                                      <th>Enquiry Message</th>           
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -29,7 +27,7 @@
                                                       <td><?php echo $row->message; ?></td>    
                                                 <td>
                                                 	<a href="<?php echo base_url();?>apanel/deleteCareer/<?php echo $row->id; ?>">
-                                                		Delete
+                                                	<span style="color:black;display:block; ">Delete</span>
                                                 	</a>
                                                 </td>
                                             </tr>

@@ -817,7 +817,7 @@ Spirit Yoga Tutorial<span class="thumbnail-content">Yoga is a physical, mental, 
          <hr class="noo-gap noo-gap-50" /><div class="noo-cta-btn text-center">
 	          <h2 class="cta-title">Join our Monthly Membership </h2>
 	          <p class="cta-message">Take any class at your free time flexibly for whole month</p>
-	          <a href="<?php echo base_url()?>index.php/welcome/signUpNow" class="btn square metro btn-default btn-subscribe">
+	          <a href="#" class="btn square metro btn-default btn-subscribe">
 		           Sign up now
 	          </a>
          </div>
@@ -850,12 +850,7 @@ Spirit Yoga Tutorial<span class="thumbnail-content">Yoga is a physical, mental, 
                                 	                    <li><i class="fa fa-skype"></i> IITY.com </li>
                             </ul>
             </div>
-    <div class="noo-social">
-                    				                <a href="#"><i class="fa fa-facebook"></i></a>
-            				                <a href="#"><i class="fa fa-twitter"></i></a>
-            				                <a href="#"><i class="fa fa-pinterest"></i></a>
-            				                <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </div>
+   
 </div>    </div>
 </div>	<div class="col-md-3 col-sm-6 block block-block" >
         <div class="widget">
@@ -882,9 +877,9 @@ Spirit Yoga Tutorial<span class="thumbnail-content">Yoga is a physical, mental, 
                                     <div class="menu-quicklink-container">
       <ul class="menu"><li><a href="<?php echo base_url();?>">Home</a></li>
            <li><a href="<?php echo base_url()?>index.php/welcome/aboutUs">About</a></li>
-           <li><a href="<?php echo base_url()?>index.php/welcome/regStudent">Students</a></li>
-           <li><a href="<?php echo base_url()?>index.php/welcome/enroll"">Online</a></li>
-           <li><a href="<?php echo base_url()?>index.php/welcome/news"">News</a></li>
+           <li><a href="<?php echo base_url()?>index.php/welcome/onlineFeePay">Students Registration</a></li>
+           <li><a href="#">Online</a></li>
+           <li><a href="#">News</a></li>
            <li><a href="<?php echo base_url()?>index.php/welcome/contact"">Contact Us</a></li>
      </ul>
      
@@ -893,26 +888,15 @@ Spirit Yoga Tutorial<span class="thumbnail-content">Yoga is a physical, mental, 
     </div>
 	<div class="col-md-3 col-sm-6 block block-webform" >
         <div class="widget">
-            			                <h4 class="widget-title">Contact Form</h4>
-                                    <form class="webform-client-form webform-client-form-96" enctype="multipart/form-data" action="<?php echo base_url()?>index.php/welcome/conDetail" method="post" id="webform-client-form-96" accept-charset="UTF-8"><div><div  class="form-item webform-component webform-component-textfield webform-component--name">
-  <label class="element-invisible" for="edit-submitted-name--2">Name </label>
- <input contenteditable="true" class="form-control form-text" type="text" id="edit-submitted-name--2" name="name"  placeholder="Name"   size="60" maxlength="128" />
-</div>
-<div  class="form-item webform-component webform-component-email webform-component--email">
-  <label class="element-invisible" for="edit-submitted-email--2">Email </label>
- <input placeholder="Email" contenteditable="true" class="form-control form-text form-email" type="email"  placeholder="Email"  id="edit-submitted-email--2" name="email" size="60" />
-</div>
-<div  class="form-item webform-component webform-component-textarea webform-component--message">
-  <label class="element-invisible" for="edit-submitted-message--2">Message </label>
- <div class="form-textarea-wrapper resizable"><textarea contenteditable="true" class="form-control textarea form-textarea" placeholder="Message" name="message" id="edit-submitted-message--2" cols="60" rows="5"></textarea></div>
-</div>
-<input type="hidden" name="details[sid]" />
-<input type="hidden" name="details[page_num]" value="1" />
-<input type="hidden" name="details[page_count]" value="1" />
-<input type="hidden" name="details[finished]" value="0" />
-<input type="hidden" name="form_build_id" value="form-Ch8dpPbL2TepoAwo_5VS5NwTEzl3bzvAzUa0nVdXwqM" />
-<input type="hidden" name="form_id" value="webform_client_form_96" />
-<div class="form-actions"><input class="webform-submit button-primary form-control form-submit form-submit" type="submit" name="op" value="Submit" /></div></div></form>        </div>
+            			                <h4 class="widget-title"> Social Media Contact </h4>
+            			                 <div class="noo-social">
+                    				      
+                    				       <a href="#"><i class="fa fa-facebook"></i></a>
+            				                <a href="#"><i class="fa fa-twitter"></i></a>
+            				                <a href="#"><i class="fa fa-pinterest"></i></a>
+            				                <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                   </div>
     </div>
   </div>
                             </div>  

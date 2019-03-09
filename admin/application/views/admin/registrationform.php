@@ -15,11 +15,10 @@
                                               <th>STUDENT NAME</th>
                                               <th>FATHER NAME</th>
                                               <th>MOTHER NAME</th>
-                                              <th>MOBILE</th>
                                               <th>ADMISSION DATE</th>
                                               <th>ADDRESS</th>
+                                              <th>MOBILE NUMBER</th>
                                               <th>COURSE NAME</th>
-                                              <th>STATUS VALUE(Active=1,Inactive=0) </th>
                                               <th>STATUS</th>
                                               <th>DELETE</th>
                                              </tr></thead>
@@ -37,8 +36,7 @@
                                           <td><?php echo $row->student_address;?></td>
                                          <td><?php echo $row->student_contact_no;?></td>
                                          <td><?php echo $row->student_course;?></td>
-                                         <td class="text-center"><?php echo $row->status;?></td>
-                                         <?php if($row->status)
+                                          <?php if($row->status)
                                          { ?>
                                            <td ><span style="color:green;">Active Student</span></td>
 

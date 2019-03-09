@@ -116,6 +116,7 @@ class formController extends CI_Controller{
 		$insert= $this->db->insert("enquiry_contact_detail",$data);
 		 if($insert)
 		 {
+		 	echo "<script>alert('Your Enquiry Submitted Successfully,We will Contact as soon as possible')</script>";
 		 	redirect ("welcome/index",'refresh');
 		 }
 		 else

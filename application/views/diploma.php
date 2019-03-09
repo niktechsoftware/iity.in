@@ -110,7 +110,7 @@
                 <a href="<?php echo base_url()?>index.php/welcome/YTT" title="">Code:YTT</a>
             </h3>
             <div class="info">
-                <span class="time"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2015-08-27T11:00:00+07:00">Duration 12 Months<span></span>
+                <span class="time"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2015-08-27T11:00:00+07:00">Duration Twelve Months<span></span>
                 <span>Eligibility :<em>Intermediate or Above</em></span>
                 <span>	Fee : <em>6200</em></span>
             </div>

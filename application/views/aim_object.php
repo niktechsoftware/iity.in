@@ -13,11 +13,11 @@
 	 <div class="row container-fluid jumbotron" style="margin-top:-40px"> 
 	 <div class="col-md-1"> </div>
     <div class="col-md-10">
-	 	<center><h3>Aim & Objective </h3></center>
+	 	<center><h3>AIM & OBJECTIVE </h3></center>
 	 <center><h2>Institute of Information Technology & Yoga</h2><center>
-	 <center><p style="text-align: justify;">The main aim of our institution is to look into the overall growth of  a student apart form computer education. What they learn in their home  school and colleges is not enough to survive in this globalized world.  Hence the Institute prepares students in all aspects to  face the challenges in both professional as well as personal life
+	 <center><p style="text-align: justify;">The main aim of our institution is to look into the overall growth of  a student apart form computer education. What they learn in their home  school and colleges, is not enough to survive in this globalized world.  Hence the Institute prepares students in all aspects to  face the challenges in both professional as well as personal life.
     </p>
-     <center><p style="text-align: justify;">Our Institution is committed to provide quality education to   students by providing appropriate infrastructure and qualified Faculties.   It is our deep desire that students enrich knowledge,   inculcate culture of learning and develop capability to compete for jobs in global scenario
+     <center><p style="text-align: justify;">Our Institution is committed to provide quality education to   students by providing appropriate infrastructure and qualified Faculties.   It is our deep desire that students enrich knowledge,   inculcate culture of learning and develop capability to compete for jobs in global scenario.
     </p>
   </div>
    <div class="col-md-1"> </div>

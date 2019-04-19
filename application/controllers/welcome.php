@@ -38,10 +38,18 @@ class Welcome extends CI_Controller {
 	{
 	    $this->load->view('signUpNow');
 	}
-	public function enroll()
+	/*public function enroll()
 	{
 	    $this->load->view('enroll');
+	}*/
+	//by neha
+	public function enroll()
+	{
+		$this->db->where('stud_id',$this->input->post('search'));
+		$data['enroll']=$this->db->get('registration_table')->result();
+		$this->load->view('enroll',$data);
 	}
+	//
 	public function aboutUs()
 	{
 		$this->load->view('aboutUs');

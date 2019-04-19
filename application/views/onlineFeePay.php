@@ -58,7 +58,7 @@
       <div class="form-group">
       <div class="form-row">  
       <div class="col-md-12 text-center">
-        <input type="Submit" name="Submit" class="btn btn-primary btn-md "  value="Ragister Me" >
+        <input type="Submit" name="Submit" class="btn btn-primary btn-md "  value="Register Me" >
       </div> 
       </div>
       </div> 

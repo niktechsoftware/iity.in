@@ -16,7 +16,7 @@
 | environments.
 |
 */
-$config['base_url'] = 'http://localhost/iity.in/admin/';
+$config['base_url'] = 'http://iity.in/admin/';
 
 /*
 |--------------------------------------------------------------------------

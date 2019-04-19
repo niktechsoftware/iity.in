@@ -351,7 +351,7 @@ a:focus, a:active, #node-title a:focus, #node-title a:active {}
 </ul></li>
 <li  class="expanded"><a href="#">Student Zone</a><ul class="sub-menu">	
 <li><a href="<?php echo base_url()?>index.php/welcome/enroll" title="">Enrollment Varification</a></li>
-<li><a href="<?php echo base_url()?>index.php/welcome/diplomaPG" title="">Certificate Verification</a></li>
+<!--<li><a href="<?php echo base_url()?>index.php/welcome/diplomaPG" title="">Certificate Verification</a></li>-->
 </ul></li>
 <li  class="expanded"><a href="#">Enrollment</a><ul class="sub-menu">
 	<li><a href="<?php echo base_url()?>index.php/welcome/onlineFeePay" title="">Enroll New Student</a></li>
